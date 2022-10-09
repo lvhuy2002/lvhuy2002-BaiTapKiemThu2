@@ -2,3 +2,7 @@
 ```
     npm install
 ```
+# Chạy test
+```
+    npm test
+```
