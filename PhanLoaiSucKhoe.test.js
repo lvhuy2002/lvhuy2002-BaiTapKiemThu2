@@ -80,3 +80,30 @@ describe("Kiem thu dong dieu khien (do phu C2)", () => {
 })
 
 
+describe("Kiem thu dong du lieu (do phu All-c-use/Some-p-use)", () => {
+    test('T1', () => {
+        expect(phanLoai(100, 50)).toBe(-1);
+    });
+    test('T2', () => {
+        expect(phanLoai('a', 'b')).toBe(-1);
+    });
+    test('T3', () => {
+        expect(phanLoai(130, 30)).toBe(6);
+    });
+    test('T4', () => {
+        expect(phanLoai(156, 40)).toBe(5);
+    });
+    test('T5', () => {
+        expect(phanLoai(155, 50)).toBe(4);
+    });
+    test('T6', () => {
+        expect(phanLoai(158, 45)).toBe(3);
+    });
+    test('T7', () => {
+        expect(phanLoai(170, 48)).toBe(2);
+    });
+    test('T8', () => {
+        expect(phanLoai(180, 70)).toBe(1);
+    });
+})
+
